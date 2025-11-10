@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(15) Bitonic", "(15) Bitonic\(15) Bitonic.csproj", "{B1395302-7E85-4F71-AECA-517B068FC5C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1395302-7E85-4F71-AECA-517B068FC5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1395302-7E85-4F71-AECA-517B068FC5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1395302-7E85-4F71-AECA-517B068FC5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1395302-7E85-4F71-AECA-517B068FC5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8430016-A5EF-4D8C-A3D9-8BEA889FEBEE}
+	EndGlobalSection
+EndGlobal
