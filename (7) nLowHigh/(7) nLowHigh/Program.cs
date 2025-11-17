@@ -11,23 +11,23 @@ class Program
         Console.Write("Type in any numbers between spaces (ex : 1 2 3 ... ) : ");
         string input = Console.ReadLine() ?? string.Empty;
 
-        bool firstnum = true;
-        int lowest = 0;
-        int highest = 0;
+        int? lowest = null;
+        int? highest = null;
 
         foreach (var numString in input.Split(' ', StringSplitOptions.RemoveEmptyEntries))
         {
             if (int.TryParse(numString, out int num))
             {
-                if (firstnum) // just for the first number
+                if (lowest == null)
                 {
                     lowest = num;
                     highest = num;
-                    firstnum = false;
                 }
-                else if (num < lowest)
+
+                if (lowest > num)
                     lowest = num;
-                else
+
+                if (highest < num)
                     highest = num;
             }
             else
